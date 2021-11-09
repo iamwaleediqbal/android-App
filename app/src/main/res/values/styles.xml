@@ -1,0 +1,176 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="stylewelcome">
+        <item name="android:textSize">@dimen/_25sdp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="txtalpha">
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/_12sdp</item>
+    </style>
+
+    <style name="txtbeta">
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:layout_marginTop">@dimen/_12sdp</item>
+    </style>
+
+    <style name="txtchoosesubscribe">
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="txtcartprice">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="textColor">#111111</item>
+    </style>
+
+    <style name="styleplease">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="styleorder">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/orderdetailtext</item>
+    </style>
+
+    <style name="styletxtmenu">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:drawablePadding">@dimen/_22sdp</item>
+        <item name="android:paddingStart">@dimen/_22sdp</item>
+        <item name="android:paddingBottom">@dimen/_22sdp</item>
+
+    </style>
+
+    <style name="styletxthome">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">@color/txthome</item>
+    </style>
+
+    <style name="styletxtorder">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/txthome</item>
+    </style>
+
+    <style name="styletxtavail">
+        <item name="android:textSize">@dimen/_18sdp</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="txtsubscribe">
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="txtbalance">
+        <item name="android:textSize">@dimen/_24sdp</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="txtwaiting">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">#000</item>
+    </style>
+
+    <style name="btnblack">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:layout_marginTop">@dimen/_12sdp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="btnwhite">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:layout_marginTop">@dimen/_12sdp</item>
+    </style>
+
+    <style name="btn_login_screen">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/txtcolor</item>
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:layout_marginTop">@dimen/_12sdp</item>
+    </style>
+
+    <style name="txt_otp">
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/txtcolor</item>
+        <item name="android:textSize">@dimen/_16sdp</item>
+        <item name="android:layout_marginTop">@dimen/_12sdp</item>
+        <item name="android:layout_marginStart">@dimen/_12sdp</item>
+    </style>
+
+    <style name="et_style">
+        <item name="android:layout_marginTop">@dimen/_22sdp</item>
+        <item name="android:layout_marginStart">@dimen/_22sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_22sdp</item>
+        <item name="background">@drawable/et_shape</item>
+        <item name="android:paddingStart">@dimen/_16sdp</item>
+        <item name="android:drawablePadding">@dimen/_16sdp</item>
+        <item name="android:paddingEnd">@dimen/_16sdp</item>
+        <item name="singleLine">true</item>
+        <item name="maxLines">1</item>
+    </style>
+
+    <style name="et_product">
+        <item name="android:layout_marginTop">@dimen/_12sdp</item>
+
+        <item name="singleLine">true</item>
+        <item name="maxLines">1</item>
+    </style>
+
+    <style name="subscription">
+        <item name="android:textSize">@dimen/_20sdp</item>
+        <item name="fontFamily">@font/poppins_medium</item>
+        <item name="android:layout_marginTop">@dimen/_16sdp</item>
+    </style>
+
+    <style name="subscriptionprice">
+        <item name="android:textSize">@dimen/_20sdp</item>
+        <item name="fontFamily">@font/poppins_semibold</item>
+        <item name="android:layout_marginBottom">@dimen/_6sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_6sdp</item>
+    </style>
+
+    <style name="stylecarttxt">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/productname</item>
+    </style>
+
+    <style name="customDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/collection_layout_background</item>
+        <item name="android:width">300dp</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/txthome</item>
+        <item name="colorControlActivated">@color/txtaccept</item>
+    </style>
+</resources>

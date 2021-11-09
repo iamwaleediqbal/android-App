@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_person"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginStart="@dimen/_22sdp"
+                android:src="@drawable/product1"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_person_name"
+                style="@style/txtbeta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:text="Emma"
+                app:layout_constraintBottom_toBottomOf="@id/img_person"
+                app:layout_constraintStart_toEndOf="@id/img_person"
+                app:layout_constraintTop_toTopOf="@id/img_person" />
+
+            <LinearLayout
+                android:id="@+id/layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toEndOf="@id/img_person"
+                app:layout_constraintTop_toBottomOf="@id/txt_person_name">
+
+                <ImageView
+                    android:id="@+id/img_start1"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:layout_marginBottom="@dimen/_6sdp"
+                    android:src="@drawable/img_start"
+                    app:layout_constraintBottom_toBottomOf="@id/txt_star"
+                    app:layout_constraintStart_toEndOf="@id/txt_star"
+                    app:layout_constraintTop_toTopOf="@id/txt_star" />
+
+                <ImageView
+                    android:id="@+id/img_star2"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:layout_marginBottom="@dimen/_6sdp"
+                    android:src="@drawable/img_start"
+                    app:layout_constraintBottom_toBottomOf="@id/txt_star"
+                    app:layout_constraintStart_toEndOf="@id/txt_star"
+                    app:layout_constraintTop_toTopOf="@id/txt_star" />
+
+                <ImageView
+                    android:id="@+id/img_start3"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:layout_marginBottom="@dimen/_6sdp"
+                    android:src="@drawable/img_start"
+                    app:layout_constraintBottom_toBottomOf="@id/txt_star"
+                    app:layout_constraintStart_toEndOf="@id/txt_star"
+                    app:layout_constraintTop_toTopOf="@id/txt_star" />
+
+                <ImageView
+                    android:id="@+id/img_start4"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:layout_marginBottom="@dimen/_6sdp"
+                    android:src="@drawable/img_start"
+                    app:layout_constraintBottom_toBottomOf="@id/txt_star"
+                    app:layout_constraintStart_toEndOf="@id/txt_star"
+                    app:layout_constraintTop_toTopOf="@id/txt_star" />
+
+                <ImageView
+                    android:id="@+id/img_start5"
+                    android:layout_width="@dimen/_15sdp"
+                    android:layout_height="@dimen/_15sdp"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:layout_marginBottom="@dimen/_6sdp"
+                    android:src="@drawable/img_start"
+                    app:layout_constraintBottom_toBottomOf="@id/txt_star"
+                    app:layout_constraintStart_toEndOf="@id/txt_star"
+                    app:layout_constraintTop_toTopOf="@id/txt_star" />
+            </LinearLayout>
+            <!--    <RatingBar-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="@dimen/_30sdp"-->
+            <!--        app:layout_constraintTop_toBottomOf="@id/txt_person_name"-->
+            <!--        app:layout_constraintStart_toStartOf="@id/img_person"-->
+            <!--        android:scaleX=".4"-->
+            <!--        android:scaleY=".4"-->
+            <!--        android:rating="5"-->
+            <!--        style="@style/RatingBar"-->
+            <!--        />-->
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:text="09/10/2021"
+                app:layout_constraintStart_toEndOf="@id/layout"
+                app:layout_constraintTop_toBottomOf="@id/txt_person_name" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:text="@string/comment"
+                android:textSize="@dimen/_12sdp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_date" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

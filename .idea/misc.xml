@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/drawable/bg_collection.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/drawable/bg_img.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/drawable/bg_otp.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/layout/active_order_item.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/layout/activity_forget_pwd.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/layout/activity_log_in.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/layout/activity_main_customer.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/layout/activity_product_detail.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/layout/cart_item.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/layout/fragment_active_order.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/layout/fragment_home.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/layout/fragment_my__products_.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/layout/fragment_search.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_home_customer.xml" value="0.12590579710144928" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.12590579710144928" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

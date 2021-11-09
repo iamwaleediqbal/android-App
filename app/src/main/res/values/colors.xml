@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="txtcolor">#3A3A3A</color>
+    <color name="etcolorborder">#7B7B7B</color>
+    <color name="otpboxbg">#F5F5F5</color>
+    <color name="gold">#E8C35C</color>
+    <color name="premium">#AD5D2A</color>
+    <color name="silvir">#AEAEAE</color>
+    <color name="txthome">#A1A1A1</color>
+    <color name="tablayoutcolor">#B7B7B7</color>
+    <color name="productname">#223263</color>
+    <color name="txtaccept">#00875F</color>
+    <color name="txtreject">#E9133F</color>
+    <color name="orderdetailtext">#9098B1</color>
+    <color name="sizebg">#DFDFDF</color>
+
+</resources>

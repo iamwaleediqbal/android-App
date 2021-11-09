@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Unfaded</string>
+    <string name="welcome">Welcome !</string>
+    <string name="plase">Please Select</string>
+    <string name="brand">BRAND</string>
+    <string name="customer">CUSTOMER</string>
+    <string name="email">Your Email</string>
+    <string name="password">Your Password</string>
+    <string name="newpwd">Enter New Password</string>
+    <string name="confirmpwd">Confirm Password</string>
+    <string name="forget_pwd">FORGOT PASSWORD?</string>
+    <string name="reset">RESET PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="verification">VERIFICATION</string>
+    <string name="resetpwd">RESET PASSWORD</string>
+    <string name="otp">OTP</string>
+    <string name="or">OR</string>
+    <string name="send">SEND</string>
+    <string name="verify">VERIFY</string>
+    <string name="social_network">Sign In Social Network</string>
+    <string name="facebook_login">LOGIN WITH FACEBOOK</string>
+    <string name="google_login">LOGIN WITH GOOGLE</string>
+    <string name="apple_login">LOGIN WITH APPLE</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="again_pwd">Password Again</string>
+
+    <string name="subcription">SUBSCRIPTION</string>
+    <string name="choosesub">CHOOSE SUBSCRIPTION!</string>
+    <string name="subscribe">SUBSCRIBE</string>
+    <string name="gold">GOLD</string>
+    <string name="platinum">PLATINUM</string>
+    <string name="silver">SILVER</string>
+    <string name="goldsubc">Gold Subscription Per Year</string>
+    <string name="platinumsubc">Platinum Subscription Per Year</string>
+    <string name="silversubc">Silver Subscription Per Year</string>
+    <string name="goldprice">$45,23</string>
+    <string name="platinumprice">$65,23</string>
+    <string name="silverprice">$35,23</string>
+
+    <string name="subsandpay">SUBSCRIBE AND PAY</string>
+    <string name="cardholder">Card Holder Name</string>
+    <string name="cardnumber">Card Number</string>
+    <string name="date">Date</string>
+    <string name="cvv">CVV</string>
+    <string name="dicrip">Please Make the Payments and Complete the Subcription to Enjoy the Whole Feature and Benefits.</string>
+    <string name="pay">PAY $ 14,02</string>
+
+    <string name="addyourbrand">ADD YOUR BRAND</string>
+    <string name="brandname">Brand Name</string>
+    <string name="branddesc">Brand Description…</string>
+    <string name="category">Select Categories</string>
+    <string name="addbrand">ADD BRAND</string>
+
+    <string name="waiting">WAITING</string>
+    <string name="wait">Please Wait Admin will get you Soon</string>
+    <string name="dummyemail">admin@gmail.com</string>
+
+    <string name="notapproved">NOT APPROVED</string>
+    <string name="request">Your Request has been Cancelled!</string>
+    <string name="info">Lorem Ipsum is simply dummy text of the printing
+        and typesetting industry. Lorem Ipsum has been the industry
+        standard dummy text ever since the 1500s, when an unknown printer
+        took a galley of type and scrambled it to make a type specimen book
+        Aldus PageMaker including versions of Lorem Ipsum</string>
+    <string name="resubmit">RESUBMIT</string>
+
+    <string name="unfaded">UNFADED</string>
+    <string name="name">Juilianne Houg</string>
+    <string name="products">Products</string>
+    <string name="follower">Followers</string>
+    <string name="mybalance">My Balance</string>
+    <string name="orderlist">Order List</string>
+    <string name="neworder">New Order</string>
+    <string name="myproducts">My Products</string>
+
+    <string name="profile">PROFILE</string>
+    <string name="editprofile">Edit Profile</string>
+    <string name="changepassword">CHANGE PASSWORD</string>
+    <string name="availblebalance">Available Balance</string>
+    <string name="balance">$245,243.98</string>
+    <string name="earn">$133,33.23</string>
+    <string name="totalearn">Total Earning</string>
+    <string name="totalsold">Total Sold</string>
+    <string name="sold">123</string>
+    <string name="withdrawal">Withdrawal</string>
+
+    <string name="addcollection">ADD COLLECTION</string>
+    <string name="collectionname">Collection Name</string>
+    <string name="addproduct">Add Products</string>
+
+    <string name="productname">Armanis Jacket Pegasus 36 Miami</string>
+
+
+    <string name="readmoreline">Lorem Ipsum is simply dummy text
+        of the printing and typesetting industry. Lorem Ipsum has been the industry
+        s standard dummy text ever since the 1500s, when an unknown printer took a
+        galley of type and scrambled it to make a type specimen book.</string>
+    <string name="readmore"><u>Read more</u></string>
+    <string name="less"><u>Less</u></string>
+    <string name="productdetail">UO-exclusive work pants from our
+collab with Dickies. Durable cotton
+twill is cut in a straight leg fit with a
+raw edge cropped hem, offering a
+zip fly and tab waist closure.</string>
+    <string name="specification">The Nike Air Max 270 React ENG combines a f
+        ull-length React foam midsole
+        with a 270 Max Air unit for unrival
+        ed comfort and a striking visual experience.</string>
+    <string name="comment">The shoe body is hard and needs to
+        adapt to each other for a period of time. I like it very much,
+        I have to go a long way with it~</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

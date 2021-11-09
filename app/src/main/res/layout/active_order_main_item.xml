@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:cardCornerRadius="@dimen/_12sdp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imd_person"
+                android:layout_width="@dimen/_50sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:src="@drawable/img_person"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_name"
+                style="@style/txtwaiting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:text="Adee Janes"
+                app:layout_constraintStart_toEndOf="@id/imd_person"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txt_order_number"
+                style="@style/txtwaiting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order Number  123123"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_name" />
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/scroll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                app:layout_constraintTop_toBottomOf="@id/imd_person">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_order"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:itemCount="2"
+                    tools:listitem="@layout/active_order_item" />
+            </androidx.core.widget.NestedScrollView>
+
+            <TextView
+                android:id="@+id/txt_total_item"
+                style="@style/styletxtorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:text="Total Items"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/scroll" />
+
+            <TextView
+                android:id="@+id/txt_total_price"
+                style="@style/styletxtorder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:text="Total Price"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/scroll" />
+
+            <TextView
+                android:id="@+id/txt_item"
+                style="@style/txtwaiting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                app:layout_constraintEnd_toEndOf="@id/txt_total_item"
+                app:layout_constraintStart_toStartOf="@id/txt_total_item"
+                app:layout_constraintTop_toBottomOf="@id/txt_total_item" />
+
+            <TextView
+                android:id="@+id/txt_price"
+                style="@style/txtwaiting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$ 5703"
+                app:layout_constraintEnd_toEndOf="@id/txt_total_price"
+                app:layout_constraintStart_toStartOf="@id/txt_total_price"
+                app:layout_constraintTop_toBottomOf="@id/txt_total_price" />
+
+            <TextView
+                android:id="@+id/txt_place"
+                style="@style/styletxthome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:text="Place On:"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/txt_price" />
+
+            <TextView
+                android:id="@+id/txt_date"
+                style="@style/styleplease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:text="10 Feb 2021"
+                app:layout_constraintStart_toEndOf="@id/txt_place"
+                app:layout_constraintTop_toBottomOf="@id/txt_price" />
+
+            <Button
+                android:id="@+id/btn_order_detail"
+                style="@style/btnblack"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginStart="@dimen/_22sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:background="@drawable/btn_black"
+                android:text="Order Detail"
+                android:textSize="@dimen/_11sdp"
+                app:layout_constraintBottom_toBottomOf="@id/txt_date"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/txt_date"
+                app:layout_constraintTop_toTopOf="@id/txt_date" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".brand.activities.EditProductActivity">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_title"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                style="@style/txtsubscribe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="EDIT PRODUCT" />
+
+            <ImageView
+                android:id="@+id/img_back_arrow"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_13sdp"
+                android:layout_marginStart="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:src="@drawable/img_arrow_back_black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="@dimen/_60sdp" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/_22sdp"
+            android:fillViewport="true"
+            android:isScrollContainer="true"
+            android:scrollbars="none"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guide_top">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_52sdp">
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guide_end"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_end="@dimen/_16sdp" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guide_start"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_begin="@dimen/_16sdp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_marginStart="@dimen/_16sdp"
+                    android:layout_marginEnd="@dimen/_16sdp"
+                    app:cardCornerRadius="@dimen/_16sdp"
+                    app:cardElevation="@dimen/_4sdp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/img_product1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/product5" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_img2"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    app:cardCornerRadius="@dimen/_16sdp"
+                    app:cardElevation="@dimen/_4sdp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintEnd_toStartOf="@id/cv_img3"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toBottomOf="@+id/cv_img1"
+                    tools:ignore="NotSibling">
+
+                    <ImageView
+                        android:id="@+id/img_product2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/product4" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_img3"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    app:cardCornerRadius="@dimen/_16sdp"
+                    app:cardElevation="@dimen/_4sdp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintEnd_toStartOf="@id/cv_img4"
+                    app:layout_constraintStart_toEndOf="@id/cv_img2"
+                    app:layout_constraintTop_toBottomOf="@+id/cv_img1"
+                    tools:ignore="NotSibling">
+
+                    <ImageView
+                        android:id="@+id/img_product3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/img_add" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cv_img4"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+                    app:cardCornerRadius="@dimen/_16sdp"
+                    app:cardElevation="@dimen/_4sdp"
+                    app:cardUseCompatPadding="true"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintStart_toEndOf="@id/cv_img3"
+                    app:layout_constraintTop_toBottomOf="@+id/cv_img1"
+                    tools:ignore="NotSibling">
+
+                    <ImageView
+                        android:id="@+id/img_product4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/img_add" />
+                </androidx.cardview.widget.CardView>
+
+                <EditText
+                    android:id="@+id/et_product_name"
+                    style="@style/et_product"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:background="@drawable/et_shape"
+                    android:hint="Enter Product Name"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/_16sdp"
+                    android:singleLine="true"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toBottomOf="@id/cv_img4" />
+
+                <EditText
+                    android:id="@+id/et_product_price"
+                    style="@style/et_product"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:background="@drawable/et_shape"
+                    android:hint="Enter Price"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:paddingStart="@dimen/_16sdp"
+                    android:singleLine="true"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toBottomOf="@id/et_product_name" />
+
+                <ScrollView
+                    android:id="@+id/scroll"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:fillViewport="true"
+                    android:scrollbars="none"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toBottomOf="@+id/et_product_price">
+
+                    <iammert.com.expandablelib.ExpandableLayout
+                        android:id="@+id/spinner_category"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        app:childLayout="@layout/childlayout_item"
+                        app:parentLayout="@layout/parentlayout_item" />
+                </ScrollView>
+
+                <ScrollView
+                    android:id="@+id/scroll1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:fillViewport="true"
+                    android:scrollbars="none"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toBottomOf="@+id/scroll">
+
+                    <iammert.com.expandablelib.ExpandableLayout
+                        android:id="@+id/spinner_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        app:childLayout="@layout/childlayout_item"
+                        app:parentLayout="@layout/parentlayout_item" />
+                </ScrollView>
+
+                <TextView
+                    android:id="@+id/txt_detail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:elevation="@dimen/_5sdp"
+                    android:padding="@dimen/_12sdp"
+                    android:paddingEnd="@dimen/_32sdp"
+                    android:text="@string/productdetail"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toBottomOf="@id/scroll1" />
+
+                <TextView
+                    android:id="@+id/txt_p"
+                    style="@style/txtsubscribe"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:elevation="@dimen/_5sdp"
+                    android:text="Product Details"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toBottomOf="@id/txt_detail" />
+
+                <TextView
+                    android:id="@+id/txt_size"
+                    style="@style/txtwaiting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_22sdp"
+                    android:text="Size"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toBottomOf="@id/txt_p" />
+
+                <TextView
+                    android:id="@+id/txt_quantity"
+                    style="@style/txtwaiting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_22sdp"
+                    android:text="Quantity"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintTop_toBottomOf="@id/txt_p" />
+
+                <TextView
+                    style="@style/styleplease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="X-Small/30S"
+                    app:layout_constraintBottom_toBottomOf="@id/et_xsmall"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toTopOf="@id/et_xsmall" />
+
+                <EditText
+                    android:id="@+id/et_xsmall"
+                    style="@style/et_product"
+                    android:layout_width="@dimen/_64sdp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:background="@drawable/et_product_shap"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="34"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintTop_toBottomOf="@id/txt_quantity" />
+
+                <TextView
+                    style="@style/styleplease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Small/30R"
+                    app:layout_constraintBottom_toBottomOf="@id/et_small"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toTopOf="@id/et_small" />
+
+                <EditText
+                    android:id="@+id/et_small"
+                    style="@style/et_product"
+                    android:layout_width="@dimen/_64sdp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:background="@drawable/et_product_shap"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="34"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintTop_toBottomOf="@id/et_xsmall" />
+
+                <TextView
+                    style="@style/styleplease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium/30L"
+                    app:layout_constraintBottom_toBottomOf="@id/et_medium"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toTopOf="@id/et_medium" />
+
+                <EditText
+                    android:id="@+id/et_medium"
+                    style="@style/et_product"
+                    android:layout_width="@dimen/_64sdp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:background="@drawable/et_product_shap"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="34"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintTop_toBottomOf="@id/et_small" />
+
+                <TextView
+                    style="@style/styleplease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Large/32S"
+                    app:layout_constraintBottom_toBottomOf="@id/et_large"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toTopOf="@id/et_large" />
+
+                <EditText
+                    android:id="@+id/et_large"
+                    style="@style/et_product"
+                    android:layout_width="@dimen/_64sdp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:background="@drawable/et_product_shap"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="34"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintTop_toBottomOf="@id/et_medium" />
+
+                <TextView
+                    style="@style/styleplease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="XL/32R"
+                    app:layout_constraintBottom_toBottomOf="@id/et_xl"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toTopOf="@id/et_xl" />
+
+                <EditText
+                    android:id="@+id/et_xl"
+                    style="@style/et_product"
+                    android:layout_width="@dimen/_64sdp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:background="@drawable/et_product_shap"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="34"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintTop_toBottomOf="@id/et_large" />
+
+                <TextView
+                    style="@style/styleplease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="XXL/32L"
+                    app:layout_constraintBottom_toBottomOf="@id/et_xxl"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toTopOf="@id/et_xxl" />
+
+                <EditText
+                    android:id="@+id/et_xxl"
+                    style="@style/et_product"
+                    android:layout_width="@dimen/_64sdp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:background="@drawable/et_product_shap"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:text="34"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintTop_toBottomOf="@id/et_xl" />
+
+                <TextView
+                    style="@style/styleplease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="XXXL/34S"
+                    app:layout_constraintBottom_toBottomOf="@id/et_xxxl"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toTopOf="@id/et_xxxl" />
+
+                <EditText
+                    android:id="@+id/et_xxxl"
+                    style="@style/et_product"
+                    android:layout_width="@dimen/_64sdp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:background="@drawable/et_product_shap"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintTop_toBottomOf="@id/et_xxl" />
+
+                <TextView
+                    style="@style/styleplease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="34R"
+                    app:layout_constraintBottom_toBottomOf="@id/et_34r"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toTopOf="@id/et_34r" />
+
+                <EditText
+                    android:id="@+id/et_34r"
+                    style="@style/et_product"
+                    android:layout_width="@dimen/_64sdp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:background="@drawable/et_product_shap"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintTop_toBottomOf="@id/et_xxxl" />
+
+                <TextView
+                    style="@style/styleplease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="34L"
+                    app:layout_constraintBottom_toBottomOf="@id/et_34l"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toTopOf="@id/et_34l" />
+
+                <EditText
+                    android:id="@+id/et_34l"
+                    style="@style/et_product"
+                    android:layout_width="@dimen/_64sdp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:background="@drawable/et_product_shap"
+                    android:gravity="center"
+                    android:imeOptions="actionNext"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintTop_toBottomOf="@id/et_34r" />
+
+                <TextView
+                    style="@style/styleplease"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="35S"
+                    app:layout_constraintBottom_toBottomOf="@id/et_35s"
+                    app:layout_constraintStart_toStartOf="@id/guide_start"
+                    app:layout_constraintTop_toTopOf="@id/et_35s" />
+
+                <EditText
+                    android:id="@+id/et_35s"
+                    style="@style/et_product"
+                    android:layout_width="@dimen/_64sdp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:background="@drawable/et_product_shap"
+                    android:gravity="center"
+                    android:imeOptions="actionDone"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    app:layout_constraintEnd_toEndOf="@id/guide_end"
+                    app:layout_constraintTop_toBottomOf="@id/et_34l" />
+
+                <Button
+                    android:id="@+id/btn_edit"
+                    style="@style/btnblack"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_38sdp"
+                    android:layout_marginStart="@dimen/_22sdp"
+                    android:layout_marginTop="@dimen/_22sdp"
+                    android:layout_marginEnd="@dimen/_22sdp"
+                    android:background="@drawable/btn_black"
+                    android:text="Edit"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/et_35s" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
