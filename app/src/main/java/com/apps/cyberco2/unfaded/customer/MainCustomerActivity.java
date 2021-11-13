@@ -48,7 +48,7 @@ public class MainCustomerActivity extends AppCompatActivity {
         bottomNavigation.setOnShowListener(new MeowBottomNavigation.ShowListener() {
             @Override
             public void onShowItem(MeowBottomNavigation.Model item) {
-                //   Toast.makeText(MainActivity.this, "Show item : " + item.getId(), Toast.LENGTH_SHORT).show();
+                //   Toast.makeText(MainAc tivity.this, "Show item : " + item.getId(), Toast.LENGTH_SHORT).show();
                 switch (item.getId()) {
                     case HOME_ID:
                         HomeCustomerFragment homeFragment = new HomeCustomerFragment();
