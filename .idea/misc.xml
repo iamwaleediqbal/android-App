@@ -3,6 +3,28 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_brand_profile.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_collection.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_forget_pwd.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_log_in.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_main_customer.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_my_product.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_notification.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_order_detail.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_otp.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_product_detail.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_progress_bar.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_register.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_reset_pwd.xml" value="0.136" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_waiting.xml" value="0.264" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/activity_withdrawa.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/childlayout_item.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/dialoge_show.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/followers_item.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/fragment_collection.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/fragment_home.xml" value="0.12395833333333334" />
+        <entry key="..\:/Users/itswa/Desktop/android-App/app/src/main/res/layout/fragment_home_customer.xml" value="0.12395833333333334" />
         <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/drawable/bg_collection.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/drawable/bg_img.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/itswa/Desktop/unfaded-Android/app/src/main/res/drawable/bg_otp.xml" value="0.14635416666666667" />
